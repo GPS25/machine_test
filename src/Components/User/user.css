@@ -1,0 +1,26 @@
+.user_container{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.user_bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.user_bottom_btn{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 2%;
+    background-color: #fff;
+    border: 2px solid #999;
+    cursor: pointer;
+}
+#pass{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #000;
+}

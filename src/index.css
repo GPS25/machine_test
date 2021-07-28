@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav_navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #ccc;
+}
+.nav_navbar_logo{
+  color: #8B8680;
+  font-size: 21px;
+  font-weight: 900;
+  margin-right: 3%;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.nav_navbar_home{
+  color: #999;
+  font-size: 16px;
+  font-weight: 900;
+  margin-right: 4%;
+  cursor: pointer;
+}
+.nav_navbar_active{
+  background-color: #000;
+  color: #999;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
